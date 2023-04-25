@@ -1,0 +1,107 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  width: 90%;
+  max-width: 1140px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-content {
+    align-items: flex-start;
+  }
+}
+
+.home-mobile-image {
+  width: 206px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-mobile-image {
+    display: none;
+  }
+}
+
+.home-desktop-image {
+  width: 50%;
+  max-width: 450px;
+  margin-left: 85px;
+}
+
+@media screen and (max-width: 768px) {
+  .home-desktop-image {
+    display: none;
+  }
+}
+
+.home-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 0px;
+  font-size: 36px;
+  color: #1e293b;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    font-size: 46px;
+    text-align: left;
+  }
+}
+
+.home-description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-top: 36px;
+  line-height: 28px;
+  color: #64748b;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-description {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 0px;
+  }
+}
+
+.home-show-button {
+  width: 60%;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: white;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+  background-color: #0967d2;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .shop-now-button {
+    width: 150px;
+    font-size: 16px;
+  }
+}
